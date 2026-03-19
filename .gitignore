@@ -1,0 +1,27 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+Thumbs.db
+.DS_Store
+
+# 运行时文件
+__pycache__/
+*.py[cod]
+
+# 模型文件（保留best.pt，忽略其他）
+runs/detect/*/weights/last.pt
+
+# 生成的图像
+strawberry_capture_*.jpg
+
+# 环境检查输出
+env_check_output.txt
